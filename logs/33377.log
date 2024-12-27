@@ -1,0 +1,8 @@
+[2024-12-27 16:00:00] [INFO] client_socket: 6
+
+[2024-12-27 16:00:00] [INFO] client_socket: 6
+
+[2024-12-27 16:00:00] [ERROR] error paring request
+
+[2024-12-27 16:00:00] [ERROR] got error while reading or parsing request, exiting thread
+

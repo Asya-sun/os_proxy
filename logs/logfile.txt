@@ -1,0 +1,49 @@
+[2024-12-27 15:49:12] [INFO] waiting for a new client
+[2024-12-27 15:49:15] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:49:15] [INFO] new client connected
+[2024-12-27 15:49:15] [INFO] waiting for a new client
+[2024-12-27 15:49:17] [INFO] got new client client_socket: 6
+
+[2024-12-27 15:49:17] [INFO] new client connected
+[2024-12-27 15:49:17] [INFO] waiting for a new client
+[2024-12-27 15:49:18] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:49:18] [INFO] new client connected
+[2024-12-27 15:49:18] [INFO] waiting for a new client
+[2024-12-27 15:49:21] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 15:53:28] [INFO] waiting for a new client
+[2024-12-27 15:54:05] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 15:56:10] [INFO] waiting for a new client
+[2024-12-27 15:56:13] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:56:13] [INFO] new client connected
+[2024-12-27 15:56:13] [INFO] waiting for a new client
+[2024-12-27 15:56:15] [INFO] got new client client_socket: 6
+
+[2024-12-27 15:56:15] [INFO] new client connected
+[2024-12-27 15:56:15] [INFO] waiting for a new client
+[2024-12-27 15:57:02] [INFO] got new client client_socket: 7
+
+[2024-12-27 15:57:02] [INFO] new client connected
+[2024-12-27 15:57:02] [INFO] waiting for a new client
+[2024-12-27 15:58:18] [INFO] got new client client_socket: 6
+
+[2024-12-27 15:58:18] [INFO] new client connected
+[2024-12-27 15:58:18] [INFO] waiting for a new client
+[2024-12-27 15:58:52] [INFO] got new client client_socket: 7
+
+[2024-12-27 15:58:52] [INFO] new client connected
+[2024-12-27 15:58:52] [INFO] waiting for a new client
+[2024-12-27 16:00:00] [INFO] got new client client_socket: 6
+
+[2024-12-27 16:00:00] [INFO] new client connected
+[2024-12-27 16:00:00] [INFO] waiting for a new client
+[2024-12-27 16:00:37] [INFO] got new client client_socket: 5
+
+[2024-12-27 16:00:37] [INFO] new client connected
+[2024-12-27 16:00:37] [INFO] waiting for a new client
+[2024-12-27 16:01:00] [ERROR] accept() error: Interrupted system call
+

@@ -1,0 +1,154 @@
+[2024-12-27 15:57:02] [INFO] client_socket: 7
+
+[2024-12-27 15:57:02] [INFO] client_socket: 7
+
+[2024-12-27 15:57:02] [INFO] request
+method : GET
+url: http://weather.nsu.ru/
+ 
+
+
+[2024-12-27 15:57:02] [INFO] request.url: http://weather.nsu.ru/
+
+[2024-12-27 15:57:02] [INFO] server_host: weather.nsu.ru server_post : 80
+
+[2024-12-27 15:57:02] [INFO] open_connection_with_server: targetHost: weather.nsu.ru
+
+[2024-12-27 15:57:02] [INFO] got address info
+
+[2024-12-27 15:57:02] [INFO] AFTER SOCKET
+
+[2024-12-27 15:57:02] [INFO] SOCKETED SUCCESSFULLY
+
+[2024-12-27 15:57:02] [INFO] CONNECTED SUCCESSFULLY
+
+[2024-12-27 15:57:02] [INFO] strlen(buffer): 129    buffer_size: 129
+
+[2024-12-27 15:57:02] [INFO] TOTALLY WROTE BYTES: 129 OF 129 PID: 133487082341952
+
+[2024-12-27 15:57:02] [INFO] http_responce was inited
+
+[2024-12-27 15:57:02] [INFO] HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Fri, 27 Dec 2024 08:57:02 GMT
+Content-Type: text/html; charset=cp1251
+Content-Length: 4431
+Connection: keep-alive
+X-Powered-By: PHP/5.2.6-1+lenny16
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Температура около НГУ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+    <script src="datepicker/datepicker.js" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" type="text/css" href="datepicker/datepicker.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="wz_jsgraphics.js"></script>
+    <script type="text/javascript"><!--
+
+        var xmlhttp;
+
+        function loadXMLDoc(url) {
+// code for Mozilla, etc.
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest()
+                xmlhttp.open("GET", url, true)
+                xmlhttp.onreadystatechange = state_Change
+                xmlhttp.send(null)
+            }
+// code for IE
+            else if (window.ActiveXObject) {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP")
+                if (xmlhttp) {
+                    xmlhttp.open("GET", url, true)
+                    xmlhttp.onreadystatechange = state_Change
+                    xmlhttp.send(null)
+                }
+            }
+        }
+
+        function state_Change() {
+            // if xmlhttp shows "loaded"
+            if (xmlhttp.readyState == 4) {
+                // if "OK"
+                if (xmlhttp.status == 200) {
+                    var response = xmlhttp.responseText;
+                    eval(response);
+                } else {
+                    alert("Problem retrieving data:" + xmlhttp.statusText);
+                }
+            }
+        }
+
+        function checkTemp() {
+            var today = new Date();
+              loadXMLDoc('loadata.php?tick=' + parseInt(today.getTime() / 1000) + '&rand=' + Math.random() + '&std=three');
+setTimeout("checkTemp()", 5 * 60 * 1000);
+        }
+
+        checkTemp();
+
+        --></script>
+</head>
+<body>
+<header>
+    <div class="infobox">
+        <a href="https://www.nsu.ru/n/" target="_blank" class="logo">
+            <img src="img/NSU_Russian_logo_Green.svg" width="245" height="72" />
+        </a>
+    </div>
+    <div class="menu-wrapper">
+        <div class="menu">
+            <div class="menu-items">
+                            <a href="https://table.nsu.ru/">Расписание</a>
+                            <a href="https://www.nsu.ru/n/media/news/">Новости</a>
+                            <a href="https://www.nsu.ru/n/media/events/">События</a>
+                            <a href="https://www.nsu.ru/n/media/epidemiologicheskaya-situatsiya-na-kampuse/">Эпидемиологическая ситуация на кампусе</a>
+                            <a href="https://www.nsu.ru/n/university/how-to-reach/">Как добраться</a>
+                            <a href="https://www.nsu.ru/n/contacts/">Контакты</a>
+                        </div>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <h1>Температура около НГУ <span id="temp"></span></h1>
+    <p>График температуры за трое суток</p>
+<center><div id="graph" style="position:relative; height:500px; width:500px; x-overflow:hidden;"></div></center>
+    <script type="text/javascript"><!--
+        document.graph = new jsGraphics("graph");
+        --></script>
+
+    <br/>
+    Средняя температура составила <span id="avertemp"></span><br/>
+    <a id='text' href="?std=ten">За 10 дней</a> | <a id='text' href="?std=month">За месяц</a> | <a id='text' href="?std=various">За произвольный период</a></div>
+
+<script type="text/javascript" src="update-page.js"></script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(86954728, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true
+    });
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/86954728" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
+[2024-12-27 15:57:02] [INFO] TOTALLY WROTE BYTES: 4640 OF 4640 PID: 133487082341952
+
+[2024-12-27 15:57:02] [INFO] strlen : 4640 received_size: 4640
+
