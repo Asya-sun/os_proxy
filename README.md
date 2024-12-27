@@ -1,1 +1,1 @@
-# os_proxy
+# proxy
