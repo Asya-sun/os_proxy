@@ -1,0 +1,65 @@
+[2024-12-26 22:22:58] [INFO] waiting for a new client
+[2024-12-26 22:23:06] [INFO] got new client client_socket: 5
+
+[2024-12-26 22:23:06] [INFO] new client connected
+[2024-12-26 22:23:06] [INFO] waiting for a new client
+[2024-12-26 22:23:07] [INFO] got new client client_socket: 6
+
+[2024-12-26 22:23:07] [INFO] new client connected
+[2024-12-26 22:23:07] [INFO] waiting for a new client
+[2024-12-26 22:23:07] [INFO] got new client client_socket: 7
+
+[2024-12-26 22:23:07] [INFO] new client connected
+[2024-12-26 22:23:07] [INFO] waiting for a new client
+[2024-12-26 22:23:08] [INFO] got new client client_socket: 5
+
+[2024-12-26 22:23:08] [INFO] new client connected
+[2024-12-26 22:23:08] [INFO] waiting for a new client
+[2024-12-26 22:23:11] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 14:13:11] [INFO] waiting for a new client
+[2024-12-27 14:13:19] [INFO] got new client client_socket: 5
+
+[2024-12-27 14:13:19] [INFO] new client connected
+[2024-12-27 14:13:19] [INFO] waiting for a new client
+[2024-12-27 14:13:56] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 14:16:05] [INFO] waiting for a new client
+[2024-12-27 14:16:09] [INFO] got new client client_socket: 5
+
+[2024-12-27 14:16:09] [INFO] new client connected
+[2024-12-27 14:16:09] [INFO] waiting for a new client
+[2024-12-27 14:16:48] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 14:16:51] [INFO] waiting for a new client
+[2024-12-27 14:16:53] [INFO] got new client client_socket: 5
+
+[2024-12-27 14:16:53] [INFO] new client connected
+[2024-12-27 14:16:53] [INFO] waiting for a new client
+[2024-12-27 14:17:01] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 14:18:30] [INFO] waiting for a new client
+[2024-12-27 14:18:34] [INFO] got new client client_socket: 5
+
+[2024-12-27 14:18:34] [INFO] new client connected
+[2024-12-27 14:18:34] [INFO] waiting for a new client
+[2024-12-27 15:02:35] [INFO] waiting for a new client
+[2024-12-27 15:03:01] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:03:01] [INFO] new client connected
+[2024-12-27 15:03:01] [INFO] waiting for a new client
+[2024-12-27 15:03:11] [INFO] waiting for a new client
+[2024-12-27 15:03:16] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:03:16] [INFO] new client connected
+[2024-12-27 15:03:16] [INFO] waiting for a new client
+[2024-12-27 15:06:50] [INFO] waiting for a new client
+[2024-12-27 15:06:53] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:06:53] [INFO] new client connected
+[2024-12-27 15:06:53] [INFO] waiting for a new client
+[2024-12-27 15:08:27] [INFO] waiting for a new client
+[2024-12-27 15:08:30] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:08:30] [INFO] new client connected
+[2024-12-27 15:08:30] [INFO] waiting for a new client

@@ -1,0 +1,16 @@
+[2024-12-26 22:23:07] [INFO] client_socket: 6
+
+[2024-12-26 22:23:07] [INFO] client_socket: 6
+
+[2024-12-26 22:23:07] [INFO] request
+method : GET
+url: http://parallels.nsu.ru/WackoWiki/KursOperacionnyeSistemy/PraktikumPosixThreads/
+ 
+
+
+[2024-12-26 22:23:07] [INFO] is_cached_data : 1 cached_time: 1
+
+[2024-12-26 22:23:07] [INFO] TOTALLY WROTE BYTES: 7649 OF 7649 PID: 131473176790592
+
+[2024-12-26 22:23:07] [INFO] wrote answer from cache
+
