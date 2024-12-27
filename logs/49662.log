@@ -1,0 +1,32 @@
+[2024-12-26 21:11:31] [INFO] client_socket: 5
+
+[2024-12-26 21:11:31] [INFO] client_socket: 5
+
+[2024-12-26 21:11:31] [INFO] request
+method : GET
+url: HTTP/1.1
+Host: parallels.nsu.ru
+User-Agent: curl/7.81.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+ 
+
+
+[2024-12-26 21:11:31] [INFO] request.url: HTTP/1.1
+Host: parallels.nsu.ru
+User-Agent: curl/7.81.0
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+
+[2024-12-26 21:11:31] [INFO] server_host: HTTP server_post : 80
+
+[2024-12-26 21:11:31] [INFO] open_connection_with_server: targetHost: HTTP
+
+[2024-12-26 21:11:31] [ERROR] getaddrinfo: Temporary failure in name resolution
+
+[2024-12-26 21:11:31] [ERROR] couldn't create connection with server
+

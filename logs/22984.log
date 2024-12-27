@@ -1,0 +1,46 @@
+[2024-12-27 15:06:53] [INFO] client_socket: 5
+
+[2024-12-27 15:06:53] [INFO] client_socket: 5
+
+[2024-12-27 15:06:53] [INFO] request
+method : GET
+url: http://parallels.nsu.ru/WackoWiki/KursOperacionnyeSistemy/PraktikumPosixThreads/
+ 
+
+
+[2024-12-27 15:06:53] [INFO] I am responsible to do smth to insert responce to cache
+
+[2024-12-27 15:06:53] [INFO] request.url: http://parallels.nsu.ru/WackoWiki/KursOperacionnyeSistemy/PraktikumPosixThreads/
+
+[2024-12-27 15:06:53] [INFO] server_host: parallels.nsu.ru server_post : 80
+
+[2024-12-27 15:06:53] [INFO] open_connection_with_server: targetHost: parallels.nsu.ru
+
+[2024-12-27 15:06:53] [INFO] got address info
+
+[2024-12-27 15:06:53] [INFO] AFTER SOCKET
+
+[2024-12-27 15:06:53] [INFO] SOCKETED SUCCESSFULLY
+
+[2024-12-27 15:06:53] [INFO] CONNECTED SUCCESSFULLY
+
+[2024-12-27 15:06:53] [INFO] I'm going to send data to client
+
+[2024-12-27 15:06:53] [INFO] strlen(buffer): 189    buffer_size: 189
+
+[2024-12-27 15:06:53] [INFO] TOTALLY WROTE BYTES: 189 OF 189 PID: 132521773762112
+
+[2024-12-27 15:06:53] [INFO] starting to send data to client
+
+[2024-12-27 15:06:53] [INFO] SERVER: http_responce was inited
+
+[2024-12-27 15:06:54] [INFO] TOTALLY WROTE BYTES: 256 PID: 132521773762112
+
+[2024-12-27 15:06:54] [INFO] TOTALLY WROTE BYTES: 512 PID: 132521773762112
+
+[2024-12-27 15:06:54] [INFO] TOTALLY WROTE BYTES: 768 PID: 132521773762112
+
+[2024-12-27 15:06:54] [INFO] TOTALLY WROTE BYTES: 1024 PID: 132521773762112
+
+[2024-12-27 15:06:54] [INFO] TOTALLY WROTE BYTES: 1280 PID: 132521773762112
+

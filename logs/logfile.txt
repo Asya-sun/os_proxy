@@ -1,0 +1,46 @@
+[2024-12-26 21:48:33] [INFO] waiting for a new client
+[2024-12-26 21:48:39] [INFO] got new client client_socket: 5
+
+[2024-12-26 21:48:39] [INFO] new client connected
+[2024-12-26 21:48:39] [INFO] waiting for a new client
+[2024-12-26 21:48:46] [ERROR] accept() error: Interrupted system call
+
+[2024-12-26 21:53:37] [INFO] waiting for a new client
+[2024-12-26 21:53:46] [INFO] got new client client_socket: 5
+
+[2024-12-26 21:53:46] [INFO] new client connected
+[2024-12-26 21:53:46] [INFO] waiting for a new client
+[2024-12-26 21:54:22] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 15:20:18] [INFO] waiting for a new client
+[2024-12-27 15:20:25] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:20:25] [INFO] new client connected
+[2024-12-27 15:20:25] [INFO] waiting for a new client
+[2024-12-27 15:20:32] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 15:21:32] [INFO] waiting for a new client
+[2024-12-27 15:21:35] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:21:35] [INFO] new client connected
+[2024-12-27 15:21:35] [INFO] waiting for a new client
+[2024-12-27 15:21:39] [INFO] got new client client_socket: 6
+
+[2024-12-27 15:21:39] [INFO] new client connected
+[2024-12-27 15:21:39] [INFO] waiting for a new client
+[2024-12-27 15:21:44] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 15:29:28] [INFO] waiting for a new client
+[2024-12-27 15:29:34] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:29:34] [INFO] new client connected
+[2024-12-27 15:29:34] [INFO] waiting for a new client
+[2024-12-27 15:29:37] [ERROR] accept() error: Interrupted system call
+
+[2024-12-27 15:31:06] [INFO] waiting for a new client
+[2024-12-27 15:31:09] [INFO] got new client client_socket: 5
+
+[2024-12-27 15:31:09] [INFO] new client connected
+[2024-12-27 15:31:09] [INFO] waiting for a new client
+[2024-12-27 15:31:16] [ERROR] accept() error: Interrupted system call
+
