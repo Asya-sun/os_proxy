@@ -122,7 +122,16 @@ int read_parse_responce(http_response_t *responce, char **buffer, size_t *buffer
     while(!responce->finished) {
 
         if (total_read == responce_maxsise) {
-            responce_maxsise = responce_maxsise * 2;
+            if (responce_maxsise == MAX_RESPONCE_BUF_SIZE) {
+                elog(logger, ERROR, "too big responce\n");
+                return -1;
+            } else if (responce_maxsise * 2 >= MAX_RESPONCE_BUF_SIZE) {
+                responce_maxsise = MAX_RESPONCE_BUF_SIZE;
+            } else {
+                responce_maxsise = responce_maxsise * 2;
+            }
+            
+
             char *tmp = realloc(*buffer, responce_maxsise);
             if (tmp == NULL) {
                 elog(logger, ERROR, "realloc error: %s\n", strerror(errno));

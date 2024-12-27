@@ -1,0 +1,40 @@
+[2024-12-27 15:58:18] [INFO] client_socket: 6
+
+[2024-12-27 15:58:18] [INFO] client_socket: 6
+
+[2024-12-27 15:58:18] [INFO] request
+method : GET
+url: http://www.gutenberg.org/
+ 
+
+
+[2024-12-27 15:58:18] [INFO] request.url: http://www.gutenberg.org/
+
+[2024-12-27 15:58:18] [INFO] server_host: www.gutenberg.org server_post : 80
+
+[2024-12-27 15:58:18] [INFO] open_connection_with_server: targetHost: www.gutenberg.org
+
+[2024-12-27 15:58:18] [INFO] got address info
+
+[2024-12-27 15:58:18] [INFO] AFTER SOCKET
+
+[2024-12-27 15:58:18] [INFO] SOCKETED SUCCESSFULLY
+
+[2024-12-27 15:58:18] [INFO] CONNECTED SUCCESSFULLY
+
+[2024-12-27 15:58:18] [INFO] strlen(buffer): 135    buffer_size: 135
+
+[2024-12-27 15:58:18] [INFO] TOTALLY WROTE BYTES: 135 OF 135 PID: 133487082341952
+
+[2024-12-27 15:58:18] [INFO] http_responce was inited
+
+[2024-12-27 15:58:19] [INFO] HTTP/1.1 302 Found
+content-length: 0
+location: https://www.gutenberg.org/
+cache-control: no-cache
+
+
+[2024-12-27 15:58:19] [INFO] TOTALLY WROTE BYTES: 104 OF 104 PID: 133487082341952
+
+[2024-12-27 15:58:19] [INFO] strlen : 104 received_size: 104
+
